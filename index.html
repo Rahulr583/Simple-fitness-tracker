@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Fitness Tracker</h1>
+
+<div class="form">
+    <input id="activity" placeholder="Activity (Running)">
+    <input id="weight" placeholder="Weight (kg)">
+    <input id="time" placeholder="Time (minutes)">
+    <button onclick="addData()">Add</button>
+</div>
+
+<h2>Daily Activities</h2>
+<ul id="list"></ul>
+
+<h2>Total Calories: <span id="total">0</span></h2>
+
+<h2>Daily Goal Progress</h2>
+<div class="progress-bar">
+    <div id="progress"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
